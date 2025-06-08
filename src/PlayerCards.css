@@ -1,0 +1,11 @@
+.playerCards{
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px brown solid;
+     border-bottom: 1px brown solid;
+    justify-content: space-between;
+    align-items: centers;
+    gap: 10px;
+    padding: 8px;
+}

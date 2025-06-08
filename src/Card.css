@@ -1,0 +1,45 @@
+.card{
+    max-width: 150px;
+    padding: 15px;
+    background-color: rgb(230, 175, 73);
+    border: 3px solid brown;
+    border-radius: 20px;
+    user-select: none;
+    box-shadow: rgb(230, 175, 73) 2px 2px 2px 2px;
+}
+.value{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.card.flipped {
+  background-color: red;  
+  color: red;
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: default;
+  p{
+    background-color: red;
+  }
+}
+
+.hide{
+    background-color: rgb(107, 229, 46);
+    border: 3px solid rgb(23, 70, 211);
+    border-radius: 20px;
+    .value{
+      background-color: rgb(107, 229, 46);
+      color: rgb(107, 229, 46);
+    }
+}
+
+
+.blockPointer{
+  pointer-events: none;
+  opacity: 0.8;
+  cursor: default;
+}
